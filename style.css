@@ -1,7 +1,7 @@
 body {
     margin:0;
     background-image: url(bg.jpg);
-    background-repeat: no-repeat;}
+    background-repeat: repeat-y;}
 
     a:link {
         text-decoration: none;
@@ -50,11 +50,13 @@ h2  {
     font-size: 20px;
 }
 .para {
-  background-color: ivory;
+  color: rgba(0, 0, 0, 0.89);
+  background-color: rgba(220, 245, 224, 0.904);
   margin: 0px;
+  margin-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -66,3 +68,62 @@ h2  {
   text-align: left;
 
 }
+.button {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 15%; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    
+  }
+  footer {
+    display: contents;
+    text-align: center;
+
+  }
+  
+  
+}
+#albumlayout{
+  margin: initial;
+  margin-left: 4%;
+  padding: initial;
+  
+}
+.album  {
+  
+  display:grid;
+  width: 93%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+  border-radius: 50%;
+}
+
+#button {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 50px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(57, 235, 152, 0.856);
+    background-color: rgba(94, 97, 95, 0.836);
+    padding: .5px;
+    border-radius: 4px;}
+
+
+    .form {
+      border: 0px;
+      padding: 0px;
+    }
